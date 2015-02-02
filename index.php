@@ -6,6 +6,7 @@ $route = '/'.$route;
 
 define('ROUTE',$route);
 
+$varRoute = explode('/', ROUTE);
 
 // Returns a view
 
