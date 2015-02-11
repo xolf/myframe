@@ -8,12 +8,9 @@ define('ROUTE',$route);
 
 $varRoute = explode('/', ROUTE);
 
-// Returns a view
+function getView($view){
 
-function returnView($view)
-{
-
-	include('views/'.$view.'.php');
+	return 'views/'.$view.'.php';
 
 }
 

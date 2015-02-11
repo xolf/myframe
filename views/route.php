@@ -1,7 +1,8 @@
 <?php
 
-if(ROUTE == '/hello'){
 
-	returnView('hello');
+if(ROUTE == '/'){
+
+	include(getView('hello'));
 
 }
