@@ -10,6 +10,8 @@ $varRoute = explode('/', ROUTE);
 
 function getView($view){
 
+	$view = str_replace('.','/',$view);
+
 	return 'views/'.$view.'.php';
 
 }
