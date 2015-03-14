@@ -1,0 +1,7 @@
+{
+    "name": "xolf/myframe",
+    "description": "A simple Viewcontroller for Web Artisans",
+    "require": {
+        "php": ">=5.0.0"
+    }
+}
