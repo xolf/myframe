@@ -6,6 +6,8 @@ $route = '/'.$route;
 
 define('ROUTE',$route);
 
+define('VIEW404', TRUE);
+
 $varRoute = explode('/', ROUTE);
 
 function getView($view, $record = TRUE){
